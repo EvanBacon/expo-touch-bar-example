@@ -12,7 +12,7 @@ let mainWindow;
 
 function createMainWindow() {
   const browserWindow = new BrowserWindow({ webPreferences: { nodeIntegration: true } });
-  touchBarWrapper(browserWindow)
+  touchBarWrapper(browserWindow);
   if (isDevelopment) {
     browserWindow.webContents.openDevTools();
   }
