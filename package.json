@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@expo/electron-adapter": "^0.0.0-alpha.20",
-    "electron": "^6.0.12",
+    "electron": "^7.2.4",
     "expo": "~36.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
